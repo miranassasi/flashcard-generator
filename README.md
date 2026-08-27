@@ -49,18 +49,18 @@
 ```bash
 git clone [https://github.com/miranassasi/flashcard-generator.git](https://github.com/miranassasi/flashcard-generator.git)
 cd flashcard-generator
-
-## How to use
-
-## Set Up Virtual Environment
-python -m venv venv
+```
+### 2.Set Up Virtual Environment
+```bash
+ python -m venv venv
 # Windows:
 .\venv\Scripts\activate
 #  macOS/Linux:
 source venv/bin/activate
+
 pip install -r requirements.txt
 streamlit run app.py
-
+```
 flashcard-generator/
 ├── .env                  # Environment secrets (Local only, ignored by Git)
 ├── .gitignore            # Git exclusion rules
